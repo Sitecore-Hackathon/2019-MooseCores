@@ -3,6 +3,7 @@
     using System;
     using System.Linq;
     using System.Web.Http;  
+    using Sitecore.Foundation.SitecoreExtensions.Extensions;
     using Sitecore.Mvc.Presentation;
     using System.Net;
     using System.Net.Http;
@@ -12,7 +13,6 @@
     using Sitecore.XConnect;
     using Sitecore.XConnect.Client;
     using Sitecore.XConnect.Client.Serialization;
-    using Sitecore.Web.Http.Filters;
 
     public class GdprApiController : ApiController
     {
@@ -27,7 +27,7 @@
             try
             {
                 Guid contactId = new Guid(id);
-                using (XConnectClient client = XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient())
+                using (Sitecore.XConnect.Client.XConnectClient client = Sitecore.XConnect.Client.Configuration.SitecoreXConnectClientConfiguration.GetClient())
                 {
                     try
                     {
@@ -91,16 +91,6 @@
             }
         }
 
-        //[HttpGet]
-        //[ValidateHttpAntiForgeryToken]
-        //public HttpResponseMessage Anonymize(string contactId)
-        //{
-        //    if (string.IsNullOrEmpty(contactId))
-        //    {
-        //        return new HttpResponseMessage(HttpStatusCode.NotFound);
-        //    }
-
-
-        //}
+       
     }
 }
