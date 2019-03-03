@@ -1,4 +1,4 @@
-﻿![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo") 
+![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo") 
 
 *Installing the Module*
 
@@ -25,23 +25,21 @@ The module extends the Experience Profile to allow users to, from inside Sitecor
 
 - Once the web admins receive the request to send over all the data collected by the website on a giver user, they can head to the Experience Profile from the Launch Pad
 
-[url=https://postimg.cc/TyN3MQCv][img]https://i.postimg.cc/TyN3MQCv/Experience-Profile.png[/img][/url]
+[<img src="https://postimg.cc/TyN3MQCv][img]https://i.postimg.cc/TyN3MQCv/Experience-Profile.png" />]
 
 - They will then search for the contact of the user that is requesting GDPR actions
 
-[url=https://postimg.cc/wRLqNzH9][img]https://i.postimg.cc/wRLqNzH9/Experience-Profile-2.png[/img][/url]
+[<img src="https://postimg.cc/wRLqNzH9][img]https://i.postimg.cc/wRLqNzH9/Experience-Profile-2.png" />]
 
 - Once they search for the contact and go to the detail page of the contact, a new Tab will show, called GDPR
 
-[url=https://postimg.cc/mz0ZhDvd][img]https://i.postimg.cc/mz0ZhDvd/Experience-Profile-3.png[/img][/url]
-
 - Clicking on the Tab will open some information regaring the user, and relevant to GDPR context
 
-[url=https://postimg.cc/mz0ZhDvd][img]https://i.postimg.cc/mz0ZhDvd/Experience-Profile-3.png[/img][/url]
+[<img src="https://postimg.cc/mz0ZhDvd][img]https://i.postimg.cc/mz0ZhDvd/Experience-Profile-3.png" />]
 
 - On the same page will have a button to request the data from that specific contact. After request the data, a download will start with all the interactions and facets stored by Sitecore to that specific Contact in the JSon format
 
-[url=https://postimg.cc/TLyYRm4L][img]https://i.postimg.cc/TLyYRm4L/Experience-Profile-4.png[/img][/url]
+[<img src="https://postimg.cc/TLyYRm4L][img]https://i.postimg.cc/TLyYRm4L/Experience-Profile-4.png" />]
 
 	
 * Youtube Video *
