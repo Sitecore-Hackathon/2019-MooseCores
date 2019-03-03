@@ -1,6 +1,5 @@
 ﻿![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo") 
 
-- Precise and Clear Installation Instructions document (1 – 2 pages)
 *Installing the Module*
 
 To install the current version of the module you will need the following pre-reqs:
